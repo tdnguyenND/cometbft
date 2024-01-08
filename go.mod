@@ -1,4 +1,4 @@
-module github.com/cometbft/cometbft
+module github.com/tdnguyenND/cometbft
 
 go 1.21
 
@@ -323,4 +323,4 @@ require (
 	mvdan.cc/unparam v0.0.0-20221223090309-7455f1af531d // indirect
 )
 
-replace github.com/cometbft/cometbft/api => ./api
+replace github.com/tdnguyenND/cometbft/api => ./api
