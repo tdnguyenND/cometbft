@@ -208,6 +208,7 @@ func (c *Client) Call(
 		return nil, fmt.Errorf("request failed: %w", err)
 	}
 
+	httpRequest.Close = true
 	httpRequest.Header.Set("Content-Type", "application/json")
 
 	if c.username != "" || c.password != "" {
